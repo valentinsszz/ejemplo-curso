@@ -19,7 +19,7 @@ namespace APLICACIÓN_WINDOWS_2
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-           
+           // hola que tal como les va!!!!
             if (txtApellido.Text == "" || txtNombre.Text == "" || txtEdad.Text == "" || txtDireccion.Text == "")
             {
                 MessageBox.Show("Ponga todos los datos", "Alerta");
